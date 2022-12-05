@@ -1,0 +1,66 @@
+body {
+    
+    background: #A07D54;
+    font-family: 'Rye', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    background-image: url("guitar.jpg");
+    background-size: cover;
+    border: 2px solid #E1A849;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px #2A2520
+    
+}
+
+h1 {
+    padding-top: 10px;
+    color: #F8F2E6;
+    text-shadow: 0px 0px 1px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #F8F2E6;
+    text-shadow: 0px 0px 1px black;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: 'Rye', cursive;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #E1A849;
+    color: #2A2520;
+}
+
+#save-btn {
+    background: #422E1F;
+}
+
+p {
+    color: #F8F2E6;
+    text-shadow: 0px 0px 1px black;
+}
